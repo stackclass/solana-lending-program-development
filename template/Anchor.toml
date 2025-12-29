@@ -1,0 +1,9 @@
+[provider]
+cluster = "Localnet"
+wallet = "~/.config/solana/id.json"
+
+[programs.localnet]
+lending_protocol = "CdZeD33fXsAHfZYS8jdxg4qHgXYJwBQ1Bv6GJyETtLST"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
