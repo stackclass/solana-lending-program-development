@@ -1,0 +1,4 @@
+slug: sm3
+name: Solana Account Model
+difficulty: easy
+description: Understand Solana's account model, program vs data accounts, and lamports

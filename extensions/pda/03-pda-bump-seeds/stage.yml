@@ -1,0 +1,4 @@
+slug: pdabumpseeds
+name: Bump Seeds and Validation
+difficulty: medium
+description: Understand bump seeds, automatic validation, and storage in your lending protocol

@@ -15,4 +15,4 @@ language_pack: rust-1.87
 required_executable: cargo (1.87)
 
 # The main source file that users can edit for this project.
-user_editable_file: programs/lending/src/lib.rs
+user_editable_file: programs/lending-program/src/lib.rs

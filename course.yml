@@ -4,14 +4,15 @@ short_name: Solana Lending
 release_status: beta
 description: |-
   Build a decentralized lending protocol on the Solana blockchain. In this challenge,
-  you'll create a secure, on-chain lending program using Anchor framework that allows
-  users to deposit collateral, borrow assets, and earn interest in a trustless manner.
+  you'll create a secure lending smart contract using the Anchor framework that allows
+  users to deposit collateral, borrow assets, repay loans, and face liquidation when
+  undercollateralized.
 
-  Along the way, you'll learn about Solana's account model, program-derived addresses (PDAs),
-  cross-program invocations (CPI), SPL token integration, Pyth price oracles, and on-chain
-  state management. You'll also master Rust for Solana development and understand how to
-  build secure, gas-efficient smart contracts.
+  Along the way, you'll learn about Solana's account model, program-derived addresses
+  (PDAs), cross-program invocations (CPI) for token operations, oracle integration for
+  price feeds, and sophisticated lending mechanics including interest rates, health
+  factors, and liquidation protocols.
 
-  By the end, you'll have a fully functional lending dApp that demonstrates core
+  By the end, you'll have a fully functional lending protocol that demonstrates core
   DeFi concepts and Solana development best practices.
 summary: Build a decentralized lending protocol on Solana blockchain using Anchor framework

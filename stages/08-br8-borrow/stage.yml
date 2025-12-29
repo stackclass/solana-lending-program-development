@@ -1,4 +1,0 @@
-slug: br8
-name: Borrow Function Implementation
-difficulty: hard
-description: Implement the borrow function with collateral check and price oracle

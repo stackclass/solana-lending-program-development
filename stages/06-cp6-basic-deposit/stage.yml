@@ -1,0 +1,4 @@
+slug: cp6
+name: Basic Deposit Function
+difficulty: medium
+description: Implement the basic deposit instruction to accept user tokens into the protocol

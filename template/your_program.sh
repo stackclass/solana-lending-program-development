@@ -21,4 +21,4 @@ set -e # Exit early if any commands fail
 #
 # - Edit this to change how your program runs locally
 # - Edit .stackclass/run.sh to change how your program runs remotely
-exec target/release/stackclass-solana-voting-program "$@"
+exec target/release/stackclass-solana-lending-program "$@"

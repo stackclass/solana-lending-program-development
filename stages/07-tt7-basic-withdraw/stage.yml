@@ -1,0 +1,4 @@
+slug: tt7
+name: Basic Withdraw Function
+difficulty: medium
+description: Implement the basic withdraw instruction to allow users to retrieve their deposits

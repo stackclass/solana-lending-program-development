@@ -1,3 +1,31 @@
-- slug: advanced-features
-  name: Advanced Features
-  description: Advanced lending protocol features including interest rate models and flash loans
+- slug: pda
+  name: Program Derived Addresses
+  description: Learn about PDAs, how to derive them for banks, users, and treasury accounts, and use bump seeds for secure account management in your lending protocol
+
+- slug: treasury
+  name: Token Treasury Management
+  description: Understand treasury vault creation, custody patterns, and security best practices for holding deposited funds in your lending protocol
+
+- slug: account-structure
+  name: Account Structure Design
+  description: Design and implement Bank and User account structures that store lending protocol state on-chain, including space calculation and data organization
+
+- slug: lending-core
+  name: Lending Core Operations
+  description: Implement the fundamental lending operations including deposit, withdraw, borrow, and repay instructions that form the core of any lending protocol
+
+- slug: oracle
+  name: Oracle Integration
+  description: Integrate price feeds from Pyth Network to get real-time asset prices for accurate collateral valuation and borrowing limits
+
+- slug: liquidation
+  name: Health Factor & Liquidation
+  description: Implement health factor calculations, liquidation triggers, and liquidation execution to maintain protocol solvency and handle undercollateralized positions
+
+- slug: interest
+  name: Interest Rate Mechanics
+  description: Understand and implement interest rate models, calculate accrued interest over time, and manage supply and demand dynamics in lending
+
+- slug: security
+  name: Security Best Practices
+  description: Learn common lending vulnerabilities, reentrancy protection, comprehensive validation techniques, and security patterns for secure smart contracts

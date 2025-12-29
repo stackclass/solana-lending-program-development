@@ -1,15 +1,34 @@
 import * as anchor from "@coral-xyz/anchor";
 import { Program } from "@coral-xyz/anchor";
-import { VotingProgram } from "../target/types/voting_program";
+import { Lending } from "../target/types/lending";
 
-describe("voting-program", () => {
-  // Configure the client to use the local cluster.
+describe("lending", () => {
   const provider = anchor.AnchorProvider.env();
   anchor.setProvider(provider);
 
-  const program = anchor.workspace.VotingProgram as Program<VotingProgram>;
+  const program = anchor.workspace.Lending as Program<Lending>;
 
-  it("Is initialized!", async () => {
-    // Students will write test cases here
+  it("Initialize bank", async () => {
+    // Test initialization
+  });
+
+  it("Initialize user", async () => {
+    // Test user initialization
+  });
+
+  it("Deposit tokens", async () => {
+    // Test deposit functionality
+  });
+
+  it("Withdraw tokens", async () => {
+    // Test withdraw functionality
+  });
+
+  it("Borrow tokens", async () => {
+    // Test borrow functionality
+  });
+
+  it("Repay loan", async () => {
+    // Test repay functionality
   });
 });

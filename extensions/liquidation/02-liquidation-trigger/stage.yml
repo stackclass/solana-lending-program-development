@@ -1,0 +1,4 @@
+slug: liquidationtrigger
+name: Liquidation Trigger
+difficulty: medium
+description: Learn how to detect when positions become liquidatable

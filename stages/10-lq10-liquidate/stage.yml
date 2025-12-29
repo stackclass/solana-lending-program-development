@@ -1,4 +1,0 @@
-slug: lq10
-name: Liquidate Function Implementation
-difficulty: hard
-description: Implement the liquidate function with health factor check and collateral transfer
