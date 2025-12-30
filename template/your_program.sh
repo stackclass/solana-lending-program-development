@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #
 # Use this script to run your program LOCALLY.
 #
@@ -16,6 +16,13 @@ set -e # Exit early if any commands fail
   cd "$(dirname "$0")" # Ensure compile steps are run within the repository directory
   cargo build --release
 )
+
+# Check mode: validate user implementation for a specific stage
+if [ "$1" = "--check" ]; then
+  STAGE_ID="$2"
+  SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+  exec bash "$SCRIPT_DIR/.stackclass/verify.sh" "$STAGE_ID"
+fi
 
 # Copied from .stackclass/run.sh
 #
