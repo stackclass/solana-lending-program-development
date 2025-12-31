@@ -6,7 +6,7 @@ edition = "2021"
 
 [lib]
 crate-type = ["cdylib", "lib"]
-name = "lending-program"
+name = "lending_program"
 
 [features]
 default = []

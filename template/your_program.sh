@@ -17,13 +17,6 @@ set -e # Exit early if any commands fail
   cargo build --release
 )
 
-# Check mode: validate user implementation for a specific stage
-if [ "$1" = "--check" ]; then
-  STAGE_ID="$2"
-  SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-  exec bash "$SCRIPT_DIR/.stackclass/verify.sh" "$STAGE_ID"
-fi
-
 # Copied from .stackclass/run.sh
 #
 # - Edit this to change how your program runs locally
