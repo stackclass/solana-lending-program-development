@@ -8,4 +8,4 @@
 
 set -e # Exit on failure
 
-exec target/release/stackclass-solana-lending-program "$@"
+# exec target/release/stackclass-solana-lending-program "$@"

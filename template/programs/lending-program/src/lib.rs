@@ -1,19 +1,16 @@
 use anchor_lang::prelude::*;
 
-declare_id!("LendZ1111111111111111111111111111111111111");
+declare_id!("3CtFsp1pYwxuS7hyoNt5iynXtykC5QCozjMiJBya1JEN");
 
 #[program]
 pub mod lending_program {
     use super::*;
 
     pub fn initialize(ctx: Context<Initialize>) -> Result<()> {
+        msg!("Greetings from: {:?}", ctx.program_id);
         Ok(())
     }
 }
 
 #[derive(Accounts)]
-pub struct Initialize<'info> {
-    #[account(mut)]
-    pub user: Signer<'info>,
-    pub system_program: Program<'info, System>,
-}
+pub struct Initialize {}
